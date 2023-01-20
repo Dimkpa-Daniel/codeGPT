@@ -95,7 +95,7 @@ const conversationDIV = document.getElementById(uniqueId);
 loader(conversationDIV);
 
 // Fetch data from the server to the front ==> Getting bot's response
-const response = await fetch('http://localhost:5000', {
+const response = await fetch('https://codegpt-uf8j.onrender.com', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json'
@@ -151,4 +151,4 @@ document.addEventListener("contextmenu", (e) => {
 
 
 
- 
+  
