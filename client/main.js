@@ -135,18 +135,18 @@ form.addEventListener('keyup', (e) => {
 
 
 // Prevents right click
-document.addEventListener("contextmenu", (e) => {
-  e.preventDefault();
- }, false);
+// document.addEventListener("contextmenu", (e) => {
+//   e.preventDefault();
+//  }, false);
 
 
 //  Prevents the F12 and Ctrl12 from being clicked
- document.addEventListener("keydown", (e) => {
-  if (e.ctrlKey || e.keyCode==123) {
-   e.stopPropagation();
-   e.preventDefault();
-  }
- });
+//  document.addEventListener("keydown", (e) => {
+//   if (e.ctrlKey || e.keyCode==123) {
+//    e.stopPropagation();
+//    e.preventDefault();
+//   }
+//  });
 
 
 
